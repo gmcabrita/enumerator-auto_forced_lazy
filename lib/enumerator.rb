@@ -14,7 +14,7 @@ class Enumerator
   #    => #<Enumerator::Lazy: #<Enumerator::Lazy: 1..Infinity>:take_while>
   #
   # Alternatively, Enumerator::AutoForcedLazy can also be constructed from any
-  #  and from any Enumerable with the Enumerable#auto_forced_lazy method.
+  # and from any Enumerable with the Enumerable#auto_forced_lazy method.
   #
   #    (1..Float::INFINITY).auto_forced_lazy.take_while { |i| i < 30 }
   #    => #<Enumerator::Lazy: #<Enumerator::Lazy: 1..Infinity>:take_while>
