@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name = "enumerator-auto_forced_lazy"
-  spec.version = "0.1.0"
+  spec.version = "0.1.1"
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["Gonçalo Cabrita"]
   spec.email = "_@gmcabrita.com"
