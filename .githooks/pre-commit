@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+(
+  cd "$(git rev-parse --show-toplevel)"
+  read -ra FILES < <(git diff-index --cached --name-only HEAD | xargs)
+  bundle exec standardrb --fix "${FILES[@]}"
+  git add "${FILES[@]}"
+)
