@@ -11,7 +11,7 @@
 
 ## Links
 
-- [API Documentation](rubydoc)
+- [API Documentation][rubydoc]
 
 ## Supported Ruby versions
 
